@@ -4,31 +4,36 @@
   <title> Java Class </title>
  </head>
 
- <body>
+ <body bgcolor=#ECF5FF style="font-family: Microsoft JhengHei;">
   <br><br><br><br><br>
-  <table height=350 width=350 bgcolor="#D2E9FF" align=center>
-   <tr height=20%>
+  <table height=350 width=350 align=center style="border-top:3px #FFD382 solid;border-bottom:3px #D3A4FF solid;" cellpadding="10" border='0'">
+   <tr height=20% bgcolor=white>
     <th> <big> 登入 </big> </th>
    </tr>
    <form>
-   <tr bgcolor=white >
-    <th> 身分	: <select name="idenity">
+   <tr bgcolor=white align=left margin-left=500px>
+    <th align=left> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+          身分	: <select name="idenity">
 　        <option value="student">學生</option>
-　        <option value="teacher">老師</option> </select> </th>
-   <tr bgcolor=white >
-    <th> 帳號  : <input type="text" name="account" size=10%> </th> </tr>
-   <tr bgcolor=white >
-    <th>  密碼  : <input type="password" name="password" size=10%>
-        <input type="button" value="忘記密碼" onclick="location.href='forgot_password.html'" style="border:#66B3FF double;background-color:white;"> </th> </tr>
-   <tr bgcolor=white >
-    <td align=center> 驗證碼  <img src=" " alt="image"> 
-     <br> <textarea cols="10" rows="1"> </textarea> </br>
-    </td>
-   </tr>
+　        <option value="teacher">老師</option> </select> <br> <br>
+
+         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+         帳號  : <input type="text" name="account" size=10%>
+
+         <input type="button" value="註冊+" onclick="location.href='register.html'" style="border:white;color:#0080FF;background-color:white;font-family: Microsoft JhengHei;"> <br> <br>
+
+         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+         密碼  : <input type="password" name="password" size=10%>
+
+         <input type="button" value="忘記密碼?" onclick="location.href='forgot_password.html'" style="border:white;color:#0080FF;background-color:white;font-family: Microsoft JhengHei;"> <br> <br>
+                  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
+         驗證碼  <img src=" " alt="image"> 
+         <br>         &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+         <input type="text"> </br> </th>
    <tr bgcolor=white>
-    <th> <input type="submit" value="登入" style="border:#66B3FF double;background-color:white;" >
-         <input type="reset" value="重新輸入" style="border:#66B3FF double;background-color:white;">
-         <input type="button" value="註冊" onclick="location.href='register.html'" style="border:#66B3FF double;background-color:white;">
+    <th> <input type="submit" value="登入" style="width:75%;height:90%;background-color:#9393FF;color:white;border:white solid;font-family: Microsoft JhengHei;" >
+         <!--<input type="reset" value="重新輸入" style="height:75%;border:#66B3FF double;background-color:white;font-family: Microsoft JhengHei;">-->
     </th>
    </tr>
    </form>
